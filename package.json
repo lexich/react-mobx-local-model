@@ -1,6 +1,6 @@
 {
   "name": "react-mobx-local-model",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Helper to create local models for React components with MobX",
   "type": "module",
   "main": "./dist/index.cjs",
