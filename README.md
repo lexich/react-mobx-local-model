@@ -1,10 +1,12 @@
+## Description
+
+The `observerWithModel` higher-order component (HOC) function allows React components to create local MobX models that can utilize the components' props. This helps to avoid writing excessive boilerplate code and prevents unnecessary re-rendering of components during the synchronization of component props and `ReactModel` state. `observerWithModel` is a reimplementation of the official `observer` hook from the `mobx-react-lite` package.
+
 ## Install
 
 ```
 npm install react-mobx-local-model
 ```
-
-The `observerWithModel` higher-order component (HOC) function allows React components to create local MobX models that can utilize the components' props. This helps to avoid writing excessive boilerplate code and prevents unnecessary re-rendering of components during the synchronization of component props and `ReactModel` state. `observerWithModel` is a reimplementation of the official `observer` hook from the `mobx-react-lite` package.
 
 ## Usage
 
